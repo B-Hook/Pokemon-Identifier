@@ -1,0 +1,10 @@
+streamlit
+os
+numpy
+tensorflow
+math
+sklearn
+matplotlib
+collections
+pandas
+PIL
