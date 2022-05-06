@@ -14,7 +14,7 @@ import sqlite3
 from sqlite3 import Connection
 
 def load_model():
-	return np.load('npyModels/combined_model_compressed.npz')
+	return np.load('combined_model_compressed.npz')
 
 def run():
 
