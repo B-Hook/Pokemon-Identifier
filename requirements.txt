@@ -1,9 +1,6 @@
 streamlit
 numpy
 tensorflow
-math
 sklearn
 matplotlib
-collections
-pandas
 pillow
