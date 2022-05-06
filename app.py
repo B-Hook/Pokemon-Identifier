@@ -14,7 +14,7 @@ import sqlite3
 from sqlite3 import Connection
 
 def load_model():
-	return np.load('combined_model_compressed.npz')
+	return np.load('combined_model.npy')
 
 def run():
 
@@ -68,7 +68,7 @@ def reverseSearch(image_file):
     neighbors = NearestNeighbors(n_neighbors=5,
                                 algorithm='ball_tree',
                                 metric='euclidean')
-    neighbors.fit(feature_list['arr_0'])
+    neighbors.fit(feature_list)
 
 
     #bytes_data = image_file.getvalue()
