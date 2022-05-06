@@ -1,11 +1,11 @@
 # Pokemon-Indentifier
-By Braiden Hook
-Resources Used
+## By Braiden Hook
+### Resources Used
 Pokemon Dataset: https://www.kaggle.com/datasets/lantian773030/pokemonclassification
 
 Reverse Image Search Code: https://www.kaggle.com/code/ajax0564/reverse-image-search-with-tensorflow-2-2/notebook
 
-App Link
+### App Link
 For this repo: https://share.streamlit.io/b-hook/pokemon-finder/main/app.py
 
 For the repo with just app only: https://share.streamlit.io/b-hook/pokemon-identifier/main/app.py
