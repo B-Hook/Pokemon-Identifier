@@ -6,8 +6,7 @@ Pokemon Dataset: https://www.kaggle.com/datasets/lantian773030/pokemonclassifica
 Reverse Image Search Code: https://www.kaggle.com/code/ajax0564/reverse-image-search-with-tensorflow-2-2/notebook
 
 ### App Link
-For this repo: https://share.streamlit.io/b-hook/pokemon-finder/main/app.py
 
-For the repo with just app only: https://share.streamlit.io/b-hook/pokemon-identifier/main/app.py
+For Streamlit Cloud: https://share.streamlit.io/b-hook/pokemon-identifier/main/app.py
 
 For AWS (has memory issues so it is slower): http://35.88.142.36:8501/
