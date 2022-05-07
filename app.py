@@ -10,29 +10,27 @@ import matplotlib.pyplot as plt
 from collections import Counter
 import streamlit as st
 from PIL import Image
-import sqlite3
-from sqlite3 import Connection
 
 def load_model():
 	return np.load('combined_model_compressed.npz')
 
 def run():
 
-    st.title('Pokemon Identifier')
+    st.title('First Generation Pokemon Identifier')
     st.subheader('By Braiden Hook')
+    st.write('**Find out the identity of your pokemon by uploading their picture!**')
 
-    st.write('Please upload your image file:')
-
-    image_file = st.file_uploader("Upload Image", type=["jpg","jpeg"])
+    image_file = st.file_uploader("Upload Pokemon Image", type=["jpg","jpeg"])
 
     if image_file is not None:
         img = Image.open(image_file)
         st.image(img,width=250)
-
-        ans = reverseSearch(image_file)
+        st.spinner()
+        with st.spinner(text='Please wait as we identify your pokemon  .  .  .'):
+        	ans = reverseSearch(image_file)
 
         print (ans)
-        st.write("\nYour Pokemon is most likely a {}!".format(ans))
+        st.write("\nYour Pokemon is most likely a **{}**!".format(ans))
         if ans != "Alolan Sandslash":
             st.write("\nFor more information on your pokemon visit: https://bulbapedia.bulbagarden.net/wiki/{}_(Pokémon)".format(ans))
         else:
