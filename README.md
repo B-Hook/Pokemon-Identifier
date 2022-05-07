@@ -1,4 +1,4 @@
-# Pokemon-Indentifier
+# Pokemon-Identifier
 ## By Braiden Hook
 ### Resources Used
 Pokemon Dataset: https://www.kaggle.com/datasets/lantian773030/pokemonclassification
