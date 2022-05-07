@@ -36,6 +36,8 @@ I did tests on just using the invert images to train the model as well as a comb
 
 After combining the two datasets to create a dataset of 13531 images (PokemonData_with_Invert), I used it to train the model where it returned a mixed of non-invert and invert (obviously). However, I was disappointed in that it was hard to see a huge difference between the original and combined datasets. This is mainly because there was still the same amount of specific Pokémon. Nonetheless, I was still satisfied with the performance and decided to use it on my final app.
 
+Note: All testing is done in the jupyter notebook.
+
 ### Issues That Arose
 
 #### Memory
